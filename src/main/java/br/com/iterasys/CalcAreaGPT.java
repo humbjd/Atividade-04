@@ -1,4 +1,4 @@
-package org.example;
+package br.com.iterasys;
 
 public class CalcAreaGPT {
     public static double calcularAreaQuadrado(double lado) {
@@ -19,7 +19,7 @@ public class CalcAreaGPT {
         double larguraRetangulo = 4.0;
         double baseTriangulo = 8.0;
         double alturaTriangulo = 3.0;
-        double raioCirculo = 2.5;
+        double raioCirculo = 2;
 
         double areaQuadrado = calcularAreaQuadrado(ladoQuadrado);
         double areaRetangulo = calcularAreaRetangulo(comprimentoRetangulo, larguraRetangulo);

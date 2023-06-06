@@ -1,3 +1,5 @@
+package br.com.iterasys;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static br.com.iterasys.CalcAreaGPT.*;
