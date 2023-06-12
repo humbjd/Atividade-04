@@ -19,6 +19,4 @@ public class CalcAreaHD {
         return Math.PI * Math.pow(raio, 2);
     }
 
-
-
 }

@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="694ab8c1-3f2f-40ce-a1f4-9e0886ea5f58" name="Changes" comment="Desenvolvimento do projeto">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/iterasys/DDCalcAreaGPT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/iterasys/DDCalcAreaHD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/iterasys/DDTestCalcAreaGPT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/iterasys/DDTestCalcAreaHD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DDestudo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DDestudoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/iterasys/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/iterasys/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/iterasys/CalcAreaHD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/iterasys/CalcAreaHD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/iterasys/DDCalcAreaHD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/iterasys/DDCalcAreaHD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/iterasys/DDTestCalcAreaGPT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/iterasys/DDTestCalcAreaGPT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/iterasys/DDTestCalcAreaHD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/iterasys/DDTestCalcAreaHD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/iterasys/TestCalcAreaHD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/iterasys/TestCalcAreaHD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +56,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.DDTestCalcAreaGPT.testCalcularArea">
-    <configuration name="CalcAreaGPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.iterasys.CalcAreaGPT" />
-      <module name="Atividade-04.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.iterasys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.TestCalcAreaHD">
     <configuration name="DDTestCalcAreaGPT" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,7 +81,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="DDTestCalcAreaGPT.testCalcularArea" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DDTestCalcAreaHD" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -105,7 +94,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;br.com.iterasys.DDTestCalcAreaGPT.testCalcularArea&quot;" />
+            <option value="&quot;br.com.iterasys.DDTestCalcAreaHD&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -116,7 +105,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="TestCalcAreaGPT (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DDTestCalcAreaHD.testCalcAreaQuadradoDD" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -129,7 +118,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;br.com.iterasys.TestCalcAreaGPT&quot;" />
+            <option value="&quot;br.com.iterasys.DDTestCalcAreaHD.testCalcAreaQuadradoDD&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -164,12 +153,37 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="TestCalcAreaHD.testCalcAreaTriangulo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;br.com.iterasys.TestCalcAreaHD.testCalcAreaTriangulo&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.DDTestCalcAreaGPT.testCalcularArea" />
-        <item itemvalue="Gradle.DDTestCalcAreaGPT" />
-        <item itemvalue="Gradle.TestCalcAreaGPT (1)" />
         <item itemvalue="Gradle.TestCalcAreaHD" />
+        <item itemvalue="Gradle.DDTestCalcAreaHD" />
+        <item itemvalue="Gradle.DDTestCalcAreaGPT" />
+        <item itemvalue="Gradle.DDTestCalcAreaHD.testCalcAreaQuadradoDD" />
+        <item itemvalue="Gradle.TestCalcAreaHD.testCalcAreaTriangulo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686076361265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Desenvolvimento do projeto">
+      <created>1686575516183</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686575516183</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -3,8 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static br.com.iterasys.CalcAreaGPT.calcularAreaCirculo;
-import static br.com.iterasys.CalcAreaHD.calcAreaQuadrado;
-import static br.com.iterasys.CalcAreaHD.calcAreaRetangulo;
+import static br.com.iterasys.CalcAreaHD.*;
 
 
 //Bibliotecas
@@ -45,9 +44,9 @@ public class TestCalcAreaHD {
         double largura = 3;
         double resultEsperado = 12;
         // Executa
-
+        double resultAtual = calcAreaTriangulo(comprimento, largura);
         // Valida
-
+        Assert.assertEquals(resultAtual, resultEsperado);
     }
     @Test
     public void testCalcAreaCirculo(){
@@ -58,7 +57,7 @@ public class TestCalcAreaHD {
         // Executa
         double resultAtual = calcularAreaCirculo(raio);
         // Valida
-
+        Assert.assertEquals(resultAtual, resultEperado);
 
     }
 
