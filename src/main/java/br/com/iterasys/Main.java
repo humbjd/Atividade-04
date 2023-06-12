@@ -7,6 +7,7 @@ public class Main {
         chamarCalcAreaRetangulo();
         chamarCalcAreaTriangulo();
         chamarCalcAreaCirculo();
+
     }
 
     private static void chamarCalcAreaQuadrado() {
