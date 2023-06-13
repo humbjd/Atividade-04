@@ -26,8 +26,15 @@ public class Account {
         // Arrange - Configura
         // Dados do usuario
         AccountEntity account = new AccountEntity(); // Instancia a entidade usuario
-        //account.username = "snoop";
-        //account.password = password;
+        account.id = 123;
+        account.username = "humb";
+        account.firstName = "Humberto";
+        account.lastName = "Dantas";
+        account.email = "teste@test.com";
+        account.password = "p@ssw0rd";
+        account.phone = "1123456789";
+        account.userStatus = 0;
+        account.message = "123";
 
 
         // Tradicional
@@ -51,13 +58,10 @@ public class Account {
         // Assert - Valida
         .then() // entao
                 .log().all()                            // registre tudo na volta
-                //.statusCode()                         // Valide a comunicacao
-                .body("username", is(account.username)) // valida o usuario
+                .statusCode(200)                         // Valide a comunicacao
+                .body("message", is(account.message)) // valida o usuario
         ; // fim da linha do REST assured
 
     }// fim do metodo de criacao do usuario
-
-
-
 
 }
