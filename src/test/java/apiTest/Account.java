@@ -6,7 +6,10 @@ import com.google.gson.Gson;
 import entities.AccountEntity;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.is;
 
 // Classes
 public class Account {
@@ -23,7 +26,7 @@ public class Account {
         // Arrange - Configura
         // Dados do usuario
         AccountEntity account = new AccountEntity(); // Instancia a entidade usuario
-        account.username = "snoop";
+        //account.username = "snoop";
         //account.password = password;
 
 
@@ -48,7 +51,9 @@ public class Account {
         // Assert - Valida
         .then() // entao
                 .log().all()                            // registre tudo na volta
-                .statusCode()
+                //.statusCode()                         // Valide a comunicacao
+                .body("username", is(account.username)) // valida o usuario
+        ; // fim da linha do REST assured
 
     }// fim do metodo de criacao do usuario
 
