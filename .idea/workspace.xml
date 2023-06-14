@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="694ab8c1-3f2f-40ce-a1f4-9e0886ea5f58" name="Changes" comment="Desenvolvimento do projeto">
+      <change afterPath="$PROJECT_DIR$/src/test/java/entities/PetEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/AccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entities/AccountEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.Account">
+  <component name="RunManager" selected="Gradle.Account.testCreateUser">
     <configuration name="Account" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -174,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Account" />
         <item itemvalue="Gradle.Account.testCreateUser" />
+        <item itemvalue="Gradle.Account" />
         <item itemvalue="Gradle.TestCalcAreaHD" />
         <item itemvalue="Gradle.DDTestCalcAreaHD" />
         <item itemvalue="Gradle.DDTestCalcAreaGPT" />
@@ -226,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686683591931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Desenvolvimento do projeto">
+      <created>1686688035825</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686688035825</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
