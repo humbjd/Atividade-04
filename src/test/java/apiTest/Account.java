@@ -68,6 +68,7 @@ public class Account {
                 .log().all()                            // registre tudo na volta
                 .statusCode(200)                         // Valide a comunicacao
                 .body("message", is(account.message)) // valida o usuario
+                .extract()
         ; // fim da linha do REST assured
 
     }// fim do metodo de criacao do usuario
@@ -76,15 +77,14 @@ public class Account {
     public void testAddPet(){
         // Configura - Arrange
         PetEntity account = new PetEntity();
-        jsonBody = gson.toJson(account);
-
         account.id = 321;
-        account.category = "cat";
+        //account.category = "cat";
         account.name = "Lagertha";
-        account.photoUrls = "total";
+        //account.photoUrls = "total";
+        //account.tags = "success";
         account.status = "available";
 
-
+        jsonBody = gson.toJson(account);
 
         // Executa - Act
         resposta = (Response) given() // dado
