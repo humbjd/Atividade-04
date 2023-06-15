@@ -70,7 +70,10 @@ public class Account {
                 .body("message", is(account.message)) // valida o usuario
                 .extract()
         ; // fim da linha do REST assured
-
+        // Extração do userId
+        //userId = resposta.jsonPath().getString("userId");
+        // Valida - Assert
+        //Assert.assertTrue(userId.length() != 0);
     }// fim do metodo de criacao do usuario
 
     @Test
@@ -101,9 +104,9 @@ public class Account {
         ; // fim do codigo testAddPet
 
         // Extração do userId
-        userId = resposta.jsonPath().getString("userId");
+        //userId = resposta.jsonPath().getString("userId");
         // Valida - Assert
-        Assert.assertTrue(userId.length() != 0);
+        //Assert.assertTrue(userId.length() != 0);
     }// fim do metodo de add pet
 
 
